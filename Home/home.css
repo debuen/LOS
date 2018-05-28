@@ -1,0 +1,61 @@
+.targetLeague{
+    background-color: #ff4848;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: white;
+}
+
+#t1:hover{
+    background-color: white;
+    //border: 1px solid #ff4848;
+    cursor: pointer;
+  
+}
+#t1:hover div i{
+    color: #ff4848;
+}
+#t1:hover div p{
+    color: #ff4848 !important;
+}
+
+.league{
+    text-align: center;
+}
+.alignLeague{
+    text-align: center; 
+    color: white; 
+    display: table-cell; 
+    vertical-align: middle;
+}
+.infoLeague{
+    margin-bottom: 0px;
+    color: white;
+}
+.infoLeague1{
+    margin-top: 20px;
+}
+.infoLeague2{
+    font-size: 12px;
+}
+
+#btnClose{
+    font-size: 40px;
+    color: red;
+}
+
+.btnJoin{
+    border: 1px solid #ff4848;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #ff4848;
+    margin-bottom: 25px;
+    padding: 3px 17px;
+}
+
+.btnJoin:hover{
+    color: white;
+    background-color: #ff4848;
+    cursor: pointer;
+}

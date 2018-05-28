@@ -1,0 +1,38 @@
+.home{
+    display: inline-block;
+    text-align: right;
+}
+.colorAwayHome{
+    color: black !important;
+}
+.away{
+    display: inline-block;
+    text-align: left;
+}
+
+.btn1x2{
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ff4848;
+    color: #ff4848;
+    width: 25px;
+}
+.btn1x2:hover{
+    background-color: #ff4848;
+    border: 1px solid #ff4848;
+    color: white;
+    cursor: pointer;
+}
+
+.btnSave{
+    background-color: #ff4848;
+    color: white;
+    padding: 5px 30px;
+    border: 1px solid #ff4848;
+    font-size: 20px;
+}
+.btnSave:hover{
+    background-color: white;
+    color: #ff4848;
+    border: 1px solid #ff4848;
+}
