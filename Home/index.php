@@ -40,7 +40,7 @@
         <nav id="sidebar" class="active">   
             <ul class="list-unstyled components fa-1x">
                     <li>
-                        <a href="#homeSubmenu" data-toggle="collapse" class="activeMenu">
+                        <a href="#" data-toggle="collapse" class="activeMenu">
                             <i class="fa fa-home"></i>
                             Home
                         </a>
@@ -52,27 +52,27 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="../League/index.php">
                             <i class="fa fa-trophy"></i> 
                             League
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="../Stats/index.php">
                             <i class="fa fa-chart-bar"></i>
-                            Statistics
+                            Stats
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="../Settings/index.php">
                             <i class="fa fa-cog"></i>
                             Settings
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="../Information/index.php">
                             <i class="fa fa-info"></i>
-                            About
+                            Information
                         </a>
                     </li>
                 </ul>
@@ -159,7 +159,7 @@
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="../Bootstrap-3.3.7/js/bootstrap.js" type="text/javascript"></script>
-        <script src="home.js" type="text/javascript"></script>
+        <script src="../js/all.js" type="text/javascript"></script>
     </body>
     
 </html>
