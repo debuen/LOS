@@ -1,0 +1,39 @@
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #ff4848;
+}
+
+.box{
+    height: 280px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+#create:hover{
+    cursor: pointer;
+    background-color: #eeeeee;    
+}
+#create:hover i{
+    color: #ff4848 !important;
+}
+#create:hover p{
+    color: #ff4848 !important;
+    font-weight: 600;
+}
+
+#join:hover{
+    cursor: pointer;
+    background-color: #eeeeee;    
+}
+#join:hover i{
+    color: #ff4848 !important;
+}
+#join:hover p{
+    color: #ff4848 !important;
+    font-weight: 600;
+}

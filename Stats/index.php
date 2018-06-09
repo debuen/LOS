@@ -80,7 +80,7 @@
         
         <div class="container-fluid" style="width: 100%; height: 100%; font-size: 15px; padding-top: 100px;">
             <ul class="nav nav-tabs nav-justified" style="padding-left: 65px; display: block;">
-                <li class="active"><a data-toggle="tab" href="#classification" style="background-color: transparent;">Classification</a></li>
+                <li class="active"><a data-toggle="tab" href="#classification" style="background-color: #cccccc;">Classification</a></li>
                 <li><a data-toggle="tab" href="#allFixture" style="background-color: #cccccc;">---------</a></li>
             </ul>
             

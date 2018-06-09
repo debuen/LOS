@@ -3,7 +3,23 @@
 */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
+*::selection {
+    background: #ff4848;
+    color: white;
+    text-shadow: 1px 1px white;
+}
 
+/* Firefox */
+*::-moz-selection {
+    background: green;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+a::before{
+    content: "" !important;
+    background-color: green;
+}
 
 #searcher :focus{
     box-shadow: none !important;
@@ -325,3 +341,11 @@ a.article, a.article:hover {
 #imgProfile:hover{
     cursor: pointer;
 }
+
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+    background-color: #f9f9f9 !important;
+    border:2px solid #3F515F;
+}  

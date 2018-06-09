@@ -1,0 +1,32 @@
+.generalIcon{
+    display: inline-block;
+    font-size: 2em;
+    color: #ff4848;
+}
+
+.generalTitle{
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    color: #ff4848;
+}
+
+#rules{
+    padding: 40px 100px;
+}
+
+.clr{
+    color: #ff4848;
+}
+
+.tagP p{
+    color: black;
+}
+
+#faq{
+    padding: 30px 60px;
+}
+
+.nav1::before{
+    background-color: green;
+}
